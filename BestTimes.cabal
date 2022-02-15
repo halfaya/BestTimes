@@ -1,0 +1,19 @@
+cabal-version:      2.4
+name:               BestTimes
+synopsis:           best times
+description:        CNW best times
+version:            0.1.0.0
+homepage:           https://github.com/halfaya/BestTimes
+license:            MIT
+license-file:       LICENSE
+author:             John Leo
+maintainer:         leo@halfaya.org
+copyright:          2022 John Leo
+extra-source-files: CHANGELOG.md README.md
+
+executable BestTimes
+  hs-source-dirs:   src
+  main-is:          Main.hs
+  build-depends:    base ^>=4.15.0.0, scalpel
+  other-modules:    
+  default-language: Haskell2010
